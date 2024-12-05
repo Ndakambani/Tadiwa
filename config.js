@@ -7,10 +7,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'BWM-XMD;;;H4sIAAAAAAAAA5VU2Y6rOBT8lSvPI/QkEMgmtTSQpUnIBoQsjO6DMQbcrLFNEtLKv4/oRd0Pc+/08GTZpk75VNV5AXlBGDZxDYYvoKTkDDlulrwuMRgCvQpDTIEIAsghGILZTKfL+SCVcydoxWG4tSbxCrHr2V/GBWtzt5/N0d6b8pw9grsIyspPCfoNoOqEtJLppCVf13PfuSL90I+t+mzltbE2exfFGt1wIZwUQ3kE9wYREkryaFLGOMMUpiauN5DQ79GvpkV58ZbQoCGfzadb7+TFx3QkocMFR2Eqoe1u02uVT4LxTfpEDuTandWnlrbZ7/fe4uhcF06nxaYbhG6n1hK3e0k3K2w7eaPPSJTjYBbgnBNef7vvwmqWhjPbb3UYcuMiLvaxlAtuFva0bgeNbrtLqXvWTjUS7XvE21pXWplaiFWSyJttwlzpxOtpe3I+HhBSUiUU0G4SVKfE/Up8Qz+8kvyfvj+NXDy1g8Dajb1btz2YtzcL82h1rb6pj9eC4nJuJnZmR4dv0lenqrH3rrcAyXqnWsfmphTiULn2nLLw+37teoNuOVlSll0+6UNe0d+amxrCrhPvpjtb0Df+UjOl53RG7bPVxWg8WPeXpT4JyvF6KUR5Ro8T2y5tf7liwSn2tLBcj/rzej/OQsXw+bmz5FxVRpfH1xcluJ4FYCjdRUBxRBinkJMif92TOiKAwdnBiGL+2l7gqYnUhvtUPUx1vX+aCbuzHj3Voa1GrZV7M8iB2VHlHhSoPAIRlLRAmDEcGITxgtZLzBiMMAPDv3+KIMdX/iZcU64jiSAklHE3r8q0gMGHqh+HEKGiyrlT52jULDAFw/bnNuac5BFr+ljlkKKYnPEohpyBYQhThu8iCPCZINzggWeU6YeVm1gke1pfE2Pahg7TGspxkb9dGciwj7rd3kOv56sPiqpKD4Mw6D6EA1XyURCGUJGACMh7Zpp/finhJGATNfEFFsmKpegc1b41HRSKP7m8yvDWe0xxAIacVlgEPkRJVW6LBOe/wZXgJtovqvltQHZ2odMwTu25DI0dcr/gvmkKhi+fc2pUBA3e0hzspscnA4gge7UgaV4udzu9niQNVEmVh1L/L/bnpWkkLMs/c8yBCHLY3Aba6mmy+DGe/Vhq9kz78ccPSWqKvivSwAWYQ5IyMASjVWseaX3reUONKjoeNUfTTE1rXPKh4EcU3qwW0I4irfA235B9/eTIZjVY7MukvChTdjWEjTvOzePYf7ZG7X8DAUMwV6mHTwVJfSQxSbJ4W49r2suNeENwkkAH14Jwuun7anyKqHLApnm1Qkd5hgd2Pu2PAZv3u5riG1h5tnYQ6Rre6k1uPpz0tdhV2pB8cZ1b2rIqJnvvWnRadOxmeW8VZ9d2NrG7AXQ6s1LvVjwk1R56o1FvnJ3tUpe92Wpxyg4TfaCTVbC4hWSsCkU2jt5C+jok0vfhTF7j8/Luu5Dg11n3rsh/KvcZgfZd/ILxPj1/YTP9AAfCantI1JuSsjjhhJ4d6eSZaK37S7v1LGlqnWmy0tY4uN9/iqBMIQ8LmoEhYJkPgQhSyLj2GeEtyTDjMCvBUOp1OorcVdS+CLJaK0uHQ/6RfKA13+zSAvd/ALFEj/oVCAAA',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Ibrahim Adams",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Ibrahim Adams",              
+    OWNER_NAME: process.env.OWNER_NAME || "James sigauke",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " James sigauke",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'BMW_MD',
